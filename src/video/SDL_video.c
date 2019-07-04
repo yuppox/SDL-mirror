@@ -67,6 +67,9 @@ static VideoBootStrap *bootstrap[] = {
 #if SDL_VIDEO_DRIVER_WAYLAND
     &Wayland_bootstrap,
 #endif
+#if SDL_VIDEO_DRIVER_MALI
+    &MALI_bootstrap,
+#endif
 #if SDL_VIDEO_DRIVER_VIVANTE
     &VIVANTE_bootstrap,
 #endif
