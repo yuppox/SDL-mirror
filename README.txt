@@ -19,3 +19,11 @@ with README.md
 
 Enjoy!
 	Sam Lantinga				(slouken@libsdl.org)
+
+---
+NOTE:
+
+This version of SDL includes an attempt to provide a video driver for the
+Mali chipset found in Odroid SBCs. The video driver is meant to be used in a
+"framebuffer" environment, which means that there is no X Windows system. It
+still uses accelerated rendering via EGL and OpenGL ES 2 (GLESv2).
